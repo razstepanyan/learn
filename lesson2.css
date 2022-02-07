@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    background-color: rgb(199, 240, 158);
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid red;
+}
+
+.box2{
+    width: 300px ;
+    height: 300px;
+    background-color: aquamarine;
+    display:inline-block ;
+    margin: 20px;
+    border: 2px dashed orange;
+}
+.box1>p{
+    font-size: 30px;
+    text-align: center;
+    margin: 50% auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2>p{
+    font-size: 30px;
+    text-align: center;
+    margin: 50% auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
