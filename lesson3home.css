@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: 0;
+}
+body{
+    background-color: bisque;
+}
+
+.menu img{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top: 6px solid aqua;
+    border-right: 6px dashed khaki;
+    border-bottom: 6px double green;
+    border-left: 6px dotted blue;
+    margin: 100px auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.aqua{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    margin: 200px auto;
+}
+
+.yellow{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    box-shadow: -20px 20px 10px #333;
+}
+
+.gray{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    box-shadow: 10px 10px 10px #333;
+}
+
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    box-shadow: -10px -10px 10px #333;
+}
+.menu{
+    height: 200px;
+    width: 100%;
+}
+
+.black{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin: 100px auto;
+}
+
+.red1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    transition: 3s all;
+}
+
+.red1:hover{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+    left: 100px ;
+}
+
+.name{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin: 100px auto;
+    border-radius: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    line-height: 400px;
+}
+
+.name .nam:hover{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    transition: 1s all;
+}
+
+input{
+    width: 400px;
+    height: 20px;
+    border: 2px;
+    border-top: 3px solid red;
+}
